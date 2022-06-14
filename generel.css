@@ -67,8 +67,7 @@ a {
   font-family: roboto;
   text-decoration: none;
   font-size: 0.9rem;
-  color: rgb(123, 122, 122);
-  font-weight: bolder;
+  color: rgb(0, 0, 0);
 }
 a:hover {
   color: rgb(224, 5, 5);
