@@ -67,7 +67,8 @@ a {
   font-family: roboto;
   text-decoration: none;
   font-size: 0.9rem;
-  color: rgb(0, 0, 0);
+  color: rgb(85, 84, 84);
+  font-weight: bolder;
 }
 a:hover {
   color: rgb(224, 5, 5);
@@ -150,6 +151,9 @@ h4 {
 h3 a {
   color: rgb(89, 89, 89);
   text-decoration: underline;
+}
+h3 a:hover {
+  color: black;
 }
 
 @media (min-width: 600px) {
