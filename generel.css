@@ -171,15 +171,7 @@ h3 a {
   h4 {
     font-size: 0.9275rem;
   }
-  /*.splash {
-    background-image: url(billeder/splash_ny.webp);
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: 12% 100%;
-    max-width: none;
-    padding: 0;
-  }*/
+
   .cv {
     background-image: url(billeder/mobile-splash.webp);
     height: 280vh;
