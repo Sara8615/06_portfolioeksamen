@@ -123,3 +123,9 @@
     order: 2;
   }
 }
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50; /* Green */
+}
