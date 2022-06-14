@@ -29,7 +29,7 @@ img {
 /* menu*/
 header nav li {
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   width: 7rem;
   padding: 0.2rem;
   flex-shrink: 0;
@@ -67,31 +67,39 @@ a {
   font-family: roboto;
   text-decoration: none;
   font-size: 1rem;
-  color: black;
+  color: rgb(123, 122, 122);
+  font-weight: bolder;
 }
 a:hover {
-  color: red;
+  color: rgb(224, 5, 5);
 }
 
 .splash {
   background-image: url(billeder/splash_ny.webp);
-  height: 60vh;
+  height: 50vh;
   width: 100%;
   background-size: cover;
   background-position: 15% 100%;
   max-width: none;
   padding: 0;
-  /*box-shadow: -2px -3px 10px rgb(250, 2, 85);*/
 }
 
 /* typografi */
 p {
   font-family: Roboto, sans-serif;
   font-size: 0.8375rem;
-  margin-bottom: 30px;
   color: rgb(10, 10, 10);
   max-width: 65ch;
   line-height: 1.5;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.cv p {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
 }
 
 footer p {
@@ -163,15 +171,15 @@ h3 a {
   h4 {
     font-size: 0.9275rem;
   }
-  .splash {
+  /*.splash {
     background-image: url(billeder/splash_ny.webp);
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: 10% 100%;
+    background-position: 12% 100%;
     max-width: none;
     padding: 0;
-  }
+  }*/
   .cv {
     background-image: url(billeder/mobile-splash.jpg);
     height: 280vh;
@@ -199,6 +207,26 @@ h3 a {
     width: 100%;
     background-size: cover;
     background-position: 90% 100%;
+    max-width: none;
+    padding: 0;
+  }
+  .splash {
+    background-image: url(billeder/splash_ny.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 20% 100%;
+    max-width: none;
+    padding: 0;
+  }
+}
+@media (min-width: 700px) {
+  .splash {
+    background-image: url(billeder/splash_ny.webp);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 10% 100%;
     max-width: none;
     padding: 0;
   }
