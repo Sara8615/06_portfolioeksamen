@@ -181,7 +181,7 @@ h3 a {
     padding: 0;
   }*/
   .cv {
-    background-image: url(billeder/mobile-splash.jpg);
+    background-image: url(billeder/mobile-splash.webp);
     height: 280vh;
     width: 100%;
     background-size: cover;
@@ -202,7 +202,7 @@ h3 a {
 }
 @media (min-width: 800px) {
   .cv {
-    background-image: url(billeder/mobile-splash.jpg);
+    background-image: url(billeder/mobile-splash.webp);
     height: 240vh;
     width: 100%;
     background-size: cover;
