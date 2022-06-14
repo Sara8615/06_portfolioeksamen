@@ -66,7 +66,7 @@ header nav ul {
 a {
   font-family: roboto;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: rgb(123, 122, 122);
   font-weight: bolder;
 }
@@ -155,6 +155,9 @@ h3 a {
 
 @media (min-width: 600px) {
   /* typografi */
+  a {
+    font-size: 1rem;
+  }
   p {
     font-size: 0.9375rem;
   }
@@ -171,7 +174,15 @@ h3 a {
   h4 {
     font-size: 0.9275rem;
   }
-
+  /*.splash {
+    background-image: url(billeder/splash_ny.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 12% 100%;
+    max-width: none;
+    padding: 0;
+  }*/
   .cv {
     background-image: url(billeder/mobile-splash.webp);
     height: 280vh;
@@ -193,6 +204,9 @@ h3 a {
   }
 }
 @media (min-width: 800px) {
+  a {
+    font-size: 1.175rem;
+  }
   .cv {
     background-image: url(billeder/mobile-splash.webp);
     height: 240vh;
